@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+  background-color: #432982;
+  color: white;
+  font-family: "Brush Script MT", cursive;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #53567b;
+  font-size: xx-large;
+  border: #7278af solid;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+button {
+  background-color: #fd8e4a;
+  color: bisque;
+  font-size: larger;
+  border-radius: 20px;
+  font-family: "Dhurjati", sans-serif;
+  border: #f0ebbb solid;
+  padding: 0 25px;
+}
+button:hover {
+  background-color: #ffae7b;
+}
+
+.userControl {
+  display: flex;
+  justify-content: space-around;
+}
+.container > p {
+  margin: 0;
+}
+h1 {
+  color: yellow;
+}
